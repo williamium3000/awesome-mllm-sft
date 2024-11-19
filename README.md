@@ -5,8 +5,11 @@
 - [Awesome-Multimodal-Large-Language-Models-Supervised-Finetuning](#awesome-multimodal-large-language-models-supervised-finetuning)
   - [Table of Contents](#table-of-contents)
     - [🔥 MLLM Supervised Finetuning Dataset](#mllm-supervised-finetuning-dataset)
-      - [MLLM SFT Training Set](#trainingset)
+      - [MLLM SFT Training Set](#mllm-sft-training-set)
+      - [MLLM Preference Training Set](#mllm-preference-training-set)
     - [🔥 Paper List](#paper-list)
+      - [SFT](#sft)
+      - [Preference](#preference)
 
 ## 🔥 MLLM Supervised Finetuning Dataset
 
@@ -26,11 +29,23 @@
 | InternVL-Chat-V1-2-SFT-Data | InternVL-Chat-V1-2 | Image | 1.2M | | [InternVL-Chat-V1-2](https://huggingface.co/datasets/OpenGVLab/InternVL-Chat-V1-2-SFT-Data)
 | Cambrian-10M | Cambrian-1 | Image | 10M | | [Cambrian-10M](https://huggingface.co/datasets/nyu-visionx/Cambrian-10M)
 
+### MLLM Preference Training Set
+
+| Dataset | Model | Modality | Quantity | Notes | Link |
+|---------|-------|----------|----------|-------|------|
+|RLHF-V-Dataset | MiniCPM-V 2.0 | Image | 5.7k | | [RLHF-V-Dataset](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset) |
+| RLAIF-V-Dataset | MiniCPM-Llama3-V 2.5 | Image | 83k | | [RLAIF-V-Dataset](https://huggingface.co/datasets/openbmb/RLAIF-V-Dataset) |
+| VLFeedback | Silkie | Image | 380k | | [VLFeedback](https://huggingface.co/datasets/MMInstruction/VLFeedback) |
+| SPA-VL | SPA-VL-DP | Image | 100k | Safety | [SPA-VL](https://huggingface.co/datasets/sqrti/SPA-VL) |
+
+
 
 
 
 
 ## 🔥 Paper List
+
+### SFT
 <details>
 
   <summary>Visual Instruction Tuning, NIPS 2023 Oral -> LLaVA-Instruct-150K</summary>
@@ -110,3 +125,38 @@
   [Paper](https://arxiv.org/abs/2406.16860) | [Github](https://github.com/cambrian-mllm/cambrian) | [Project](https://cambrian-mllm.github.io/) 
 
 </details>
+
+### Preference
+
+<details>
+
+  <summary>RLHF-V: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback, CVPR 2024 -> RLHF-V-Dataset</summary>
+
+  [Paper](https://arxiv.org/abs/2312.00849) | [Github](https://github.com/RLHF-V/RLHF-V) | [Project](https://rlhf-v.github.io/)
+
+</details>
+
+<details>
+
+  <summary>RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness, 2024 -> RLAIF-V-Dataset</summary>
+
+  [Paer](https://arxiv.org/abs/2405.17220) | [Github](https://github.com/RLHF-V/RLAIF-V)
+
+</details>
+
+<details>
+
+  <summary>Silkie: Preference Distillation for Large Visual Language Models, CoRR 2023 -> VLFeedback</summary>
+
+  [Paper](https://arxiv.org/abs/2312.10665) | [Github](https://github.com/vlf-silkie/VLFeedback) | [Project](https://vlf-silkie.github.io/)
+
+</details>
+
+<details>
+  
+  <summary>SPA-VL: A Comprehensive Safety Preference Alignment Dataset for Vision Language Model, 2024 -> SPA-VL</summary>
+  
+  [Paper](https://arxiv.org/abs/2406.12030) | [Github](https://github.com/EchoseChen/SPA-VL-RLHF) | [Project](https://sqrti.github.io/SPA-VL/)
+
+</details>
+
