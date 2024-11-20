@@ -37,7 +37,7 @@
 | RLAIF-V-Dataset | MiniCPM-Llama3-V 2.5 | Image | 83k | | [RLAIF-V-Dataset](https://huggingface.co/datasets/openbmb/RLAIF-V-Dataset) |
 | VLFeedback | Silkie | Image | 380k | | [VLFeedback](https://huggingface.co/datasets/MMInstruction/VLFeedback) |
 | SPA-VL | SPA-VL-DP | Image | 100k | Safety | [SPA-VL](https://huggingface.co/datasets/sqrti/SPA-VL) |
-
+| MMPR | InternVL2 | Image | 3M | | [MMPR](https://huggingface.co/datasets/OpenGVLab/MMPR) |
 
 
 
@@ -160,3 +160,10 @@
 
 </details>
 
+<details>
+  
+  <summary>Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization, 2024 -> MMPR</summary>
+  
+  [Paper](https://arxiv.org/abs/2411.10442) | [Github](https://github.com/OpenGVLab/InternVL/tree/main/internvl_chat/shell/internvl2.0_mpo) | [Project](https://internvl.github.io/blog/2024-11-14-InternVL-2.0-MPO/)
+
+</details>
